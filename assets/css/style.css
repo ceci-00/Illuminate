@@ -1,0 +1,59 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+/* navbar w/blk background  */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* home btn stays top left */
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* sets navbar hover */
+.navbar a:hover {
+    background-color: #b0c1b4;
+    color: black;
+}
+
+/* splits sections to top right on navbar */
+.sections a {
+    float: right;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+}
+
+/* hover for sections*/
+.sections a:hover {
+    background-color: #b0c1b4;
+    color: black;
+}
+
+.main {
+    margin-top: 0px;
+    padding: 10px;
+}
+
+/* about me img on left of page*/
+.me img {
+    float: left;
+    margin-right: 30px;
+}
+
+.about-me {
+    float: right;
+    padding: 10px;
+    margin: 5px;
+}
