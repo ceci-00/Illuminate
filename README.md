@@ -17,7 +17,7 @@ This is my portfolio created as part of UT of Austin's full stack web-developmen
 No installation instructions needed.
 
 ## Usage
-[Usage Demonstration](<./assets/images/My-Portfolio.png>)
+![Webpage Screenshot](./assets/images/My-Portfolio.png)
 
 ## License
 [License: MIT](https://opensource.org/licenses/MIT)
