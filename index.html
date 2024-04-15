@@ -5,18 +5,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
     <title>About Me</title>
 </head>
 
 <body>
     <div class="navbar">
-            <a href="#home" class="btn">Home</a>
-            <div class="sections">
-                <a href="#about" class="btn">About</a>
-                <a href="#portfolio" class="btn">Portfolio</a>
-                <a href="#resume" class="btn">Resume</a>
-                <a href="#contact" class="btn">Contact</a>
-            </div>
+        <a href="#home" class="btn"><h2>Home</h2></a>
+        <div class="sections">
+            <a href="#about" class="btn"><h2>About</h2></a>
+            <a href="#portfolio" class="btn"><h2>Portfolio</h2></a>
+            <a href="#resume" class="btn"><h2>Resume</h2></a>
+            <a href="#contact" class="btn"><h2>Contact</h2></a>
+        </div>
     </div>
 
     <header class="header" id="home">
@@ -28,30 +29,35 @@
             <div class="about-me">
                 <img src="./assets/images/Ceci.jpg" alt="Ceci" style="width:15%">
                 <h2>About Me</h2>
-                <p>My name is Cecilia, but you can call me Ceci for short (pronounced Seh-see. Not Cici like the pizza).
+                <p>My name is Cecilia, but you can call me Ceci for short.
+                     *(Pronounced Seh-see, not Cici like the pizza.)*
                     I'm a native Texan with Mexican roots. I enjoy traveling and exploring,
                     outdoor adventures and activities, and love any and all kinds of music. </p>
             </div>
         </section>
-        <section id="portfolio">
+        <section class="container">
             <h2>Portfolio</h2>
-            <div class="projects">
-                <a href="https://ceci-00.github.io/Semantics/" class="card">
-                    <h3>Semantics</h3>
-                    <img src="./assets/images/Semantics.png" alt="Semantics" style="width:15%">
-                </a>
-                <a href="https://ceci-00.github.io/Generate/" class="card">
-                    <h3>Password Generator</h3>
-                    <img src="./assets/images/Password-Generator.png" alt="Password-Generator" style="width:15%">
-                </a>
-                <a href="https://github.com/ceci-00/Verbalize.git" class="card">
-                    <h3>README.md Generator</h3>
-                    <img src="./assets/images/readme-generator-screenshot.png" alt="README" style="width:15%">
-                </a>
-                <a href="https://ceci-00.github.io/Scheduler/" class="card">
-                    <h3>Workday Scheduler</h3>
-                    <img src="./assets/images/Workday-Scheduler.png" alt="Workday-Scheduler" style="width:15%">
-                </a>
+            <div class="grid">
+                    <a href="https://ceci-00.github.io/Semantics/" class="card">
+                            <h3>Semantics</h3>
+                            <img src="./assets/images/Semantics.png" alt="Semantics">
+                    </a>
+                    <a href="https://ceci-00.github.io/Generate/" class="card">
+                        <h3>Password Generator</h3>
+                        <img src="./assets/images/Password-Generator.png" alt="Password-Generator">
+                    </a>                
+                    <a href="https://github.com/ceci-00/Verbalize.git" class="card">
+                        <h3>README.md Generator</h3>
+                        <img src="./assets/images/readme-generator-screenshot.png" alt="README">
+                    </a>            
+                    <a href="https://ceci-00.github.io/Scheduler/" class="card">
+                        <h3>Workday Scheduler</h3>
+                        <img src="./assets/images/Workday-Scheduler.png" alt="Workday-Scheduler">
+                    </a>
+                    <a href="https://mighty-badlands-75824-a853aac7dfb1.herokuapp.com" class="card">
+                        <h3>Hiking Viking</h3>
+                        <img src="./assets/images/Hiking-Viking.png" alt="Workday-Scheduler">
+                    </a>
             </div>
         </section>
         <section id="resume">
